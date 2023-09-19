@@ -29,7 +29,7 @@ Getting Started
 
 * **Development Flow Overview**: Refer to the :doc:`devflow` page. 
 
-* **Getting Started Example**: Refer to the :doc:`getstartex` page to run a resnet50 model example.
+* **Getting Started Example**: Refer to the :doc:`examples/resnet50` page to run a resnet50 model example.
 
 Using Your Model
 ================
@@ -51,13 +51,13 @@ Using Your Model
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
    :caption: Getting Started
    :hidden:
 
    inst.rst
    devflow.rst
-   getstartex.rst
+   examples_overview.rst
 
 .. toctree::
    :maxdepth: 1
