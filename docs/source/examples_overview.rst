@@ -7,3 +7,4 @@ Examples
 .. toctree::
 
     Resnet50 <examples/resnet50>
+    OPT <examples/opt>

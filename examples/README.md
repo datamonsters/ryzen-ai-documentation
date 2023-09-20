@@ -12,6 +12,9 @@ ryzen-ai-documentation/examples
 │ ├── resnet50                      # model name
 │ │ ├── README.md                   # instructions on how to run the example
 │ │ ├── ...                         # other files needed for launching example on Ryzen AI
+│ ├── opt                           # model name
+│ │ ├── README.md                   # instructions on how to run the example
+│ │ ├── ...                         # other files needed for launching example on Ryzen AI
 │ ...  
 ├── scripts                         # helper scripts folder
 │ ├── config.env                    # env-variables configuration of all needed paths for configuring the project 
@@ -34,3 +37,4 @@ Before running any example, you need to install and configure all necessary proj
 ## Examples
 
 - [Resnet50](./models/resnet50/README.md#resnet50-example)
+- [OPT](./models/opt/README.md#opt-)

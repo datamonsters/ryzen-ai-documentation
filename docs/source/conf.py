@@ -16,9 +16,9 @@
 import os
 import sys
 import urllib.parse
-# import recommonmark
-# from recommonmark.transform import AutoStructify
-# from recommonmark.parser import CommonMarkParser
+import recommonmark
+from recommonmark.transform import AutoStructify
+from recommonmark.parser import CommonMarkParser
 
 # sys.path.insert(0, os.path.abspath('.'))
 sys.path.insert(0, os.path.abspath('_ext'))
@@ -48,7 +48,6 @@ html_last_updated_fmt = 'September 11, 2023'
 # ones.
 extensions = [
     'sphinx.ext.graphviz',
-    'breathe',
     'sphinx.ext.autodoc',
     'sphinx.ext.doctest',
     'sphinx.ext.intersphinx',
@@ -58,7 +57,9 @@ extensions = [
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
-    "notfound.extension",
+    'notfound.extension',
+    'm2r2',
+    'breathe',
 	#'recommonmark',
 	#'sphinx_markdown_tables',
 	#'edit_on_github',
@@ -114,7 +115,7 @@ source_suffix = {
 
 # For MD support
 source_parsers = {
-    #'.md': CommonMarkParser,
+    '.md': CommonMarkParser,
 	# myst_parser testing
 	#'.md': 
 }
